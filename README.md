@@ -54,7 +54,6 @@ User: krish
 Kernel Version: 6.2.0-24-generic
 VLC Binary: /usr/bin/vlc
 ---
-
 ### **2. script2.sh Output**
 ```markdown
 ### **script2.sh – Package Verification**
@@ -62,7 +61,6 @@ VLC Binary: /usr/bin/vlc
 ii  vlc  3.0.18-1build1  amd64  multimedia player and streamer
 Status: VLC is successfully installed on this system.
 ---
-
 ### **3. script3.sh Output**
 ```markdown
 ### **script3.sh – File Permissions Audit**
@@ -70,14 +68,12 @@ Status: VLC is successfully installed on this system.
 -rwxr-xr-x 1 root root 110M /usr/bin/vlc
 .config/vlc/ permissions: drwx------ krish krish
 ---
-
 ### **4. script4.sh Output**
 ```markdown
 ### **script4.sh – Disk Usage**
 ```text
 450M /usr/lib/vlc
 ---
-
 ### **5. script5.sh Output (Most Important)**
 ```markdown
 ### **script5.sh – Final Audit Report (24BCE11010)**
@@ -90,9 +86,7 @@ Reg. Number    : 24BCE11010
 Audit Status   : SUCCESSFUL
 Execution Date : Tue Mar 24 20:15:00 IST 2026
 ==========================================
-
 ---
-
 ## 🎯 Learning Outcomes
 
 * **Linux File System Hierarchy:** Is project ke zariye maine seekha ki Linux mein binaries (`/usr/bin`), libraries (`/usr/lib`), aur configuration files (`.config`) kaha store hoti hain.
@@ -101,8 +95,6 @@ Execution Date : Tue Mar 24 20:15:00 IST 2026
 * **FOSS Principles & Transparency:** VLC jaise open-source software ka audit karke ye samjha ki transparency aur community-driven development security ke liye kitna zaroori hai.
 * **Practical Problem-Solving:** VirtualBox environment mein audit run karte waqt permissions aur disk usage issues ko troubleshoot karna seekha.
 ---
-
-
 ## 🛠️ Tools Used
 
 * **Operating System:** Ubuntu 24.04 LTS
