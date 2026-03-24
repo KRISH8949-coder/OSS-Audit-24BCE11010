@@ -1,7 +1,7 @@
 # OSS Audit: VLC Media Player
 
-### **Student Information**
-* **Name:** Krish  
+
+* **Name:** Krish Chotia
 * **Registration Number:** 24BCE11010  
 * **Environment:** Ubuntu 24.04 LTS on VirtualBox
 
