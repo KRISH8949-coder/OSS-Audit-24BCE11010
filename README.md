@@ -1,19 +1,19 @@
 # 🛡️ OSS Audit: VLC Media Player
 
 ### **Student Information**
-* **Name:** Krish Chotia
-* **Registration Number:** 24BCE11010
-* **Environment:** Ubuntu 24.04 LTS on VirtualBox
+- **Name:** Krish Chotia
+- **Registration Number:** 24BCE11010
+- **Environment:** Ubuntu 24.04 LTS on VirtualBox
 
 ---
 
 ## 📝 Project Description
 This project is an **Open Source Software (OSS) Audit** of **VLC Media Player**. The audit focuses on:
 
-- Verifying the software’s installation
-- Checking system-level footprints and file structure
-- Ensuring compliance with **FOSS (Free and Open Source Software) principles**
-- Automating audit tasks using **custom shell scripts**
+- Verifying the software’s installation  
+- Checking system-level footprints and file structure  
+- Ensuring compliance with **FOSS (Free and Open Source Software) principles**  
+- Automating audit tasks using **custom shell scripts**  
 
 Through this project, I gained hands-on experience with Linux, shell scripting, package management, and understanding the transparency and reliability of community-driven software.
 
@@ -23,77 +23,63 @@ Through this project, I gained hands-on experience with Linux, shell scripting, 
 
 | File Name      | Audit Function |
 |----------------|----------------|
-| **script1.sh** | Checks System Identity & VLC Binary Path |
-| **script2.sh** | Performs Package Verification using `dpkg` |
-| **script3.sh** | Audits File Permissions for Security |
-| **script4.sh** | Analyzes Disk Usage & Storage Footprint |
-| **script5.sh** | Generates an Interactive Final Audit Report |
+| `script1.sh`   | Checks System Identity & VLC Binary Path |
+| `script2.sh`   | Performs Package Verification using `dpkg` |
+| `script3.sh`   | Audits File Permissions for Security |
+| `script4.sh`   | Analyzes Disk Usage & Storage Footprint |
+| `script5.sh`   | Generates an Interactive Final Audit Report |
 
 > Each script is independent but together provides a complete audit of VLC on a Linux environment.
 
 ---
 
 ## 🚀 How to Run
-1. Open the Linux Terminal.
-2. Navigate to the folder containing all scripts.
-3. Provide execution permissions:
+
+1. Open the Linux Terminal.  
+2. Navigate to the folder containing all scripts.  
+3. Provide execution permissions:  
 ```bash
 chmod +x *.sh
-
-
-Run the script one by one 
-```bash
+Run the scripts one by one:
 ./script1.sh
 ./script2.sh
 ./script3.sh
 ./script4.sh
 ./script5.sh
+(Optional) Run all scripts in a loop:
+for script in *.sh; do
+    ./"$script"
+done
 
+Scripting: All scripts are written in Bash.
 
 📊 Example Script Outputs
-
-```bash
 script1.sh – System Identity
 User: krish
 Kernel Version: 6.2.0-24-generic
 VLC Binary: /usr/bin/vlc
-
-```bash
 script2.sh – Package Verification
 ii  vlc  3.0.18-1build1  amd64  multimedia player and streamer
 VLC is installed on this system.
-
-
-```bash
 script3.sh – File Permissions Audit
 -rwxr-xr-x 1 root root 110M /usr/bin/vlc
 .config/vlc/ permissions: drwx------ krish krish
-
-```bash
 script4.sh – Disk Usage
 450M    /usr/lib/vlc
-
-```bash
 script5.sh – Final Audit Report
 VLC Media Player is installed correctly, uses moderate disk space,
 and all permissions are appropriate.
 This audit confirms VLC’s compliance with FOSS principles.
-
 🎯 Learning Outcomes
 Linux File System: Learned locations of binaries, libraries, and config files.
 Shell Scripting: Automated system checks using Bash scripts.
 Package Management: Gained experience with dpkg for verifying installations.
 Open Source Principles: Understood the importance of transparency and community contributions.
 Practical Problem-Solving: Learned to audit an application safely using VirtualBox.
-
-
 📌 Notes & Observations
 VLC is lightweight considering the number of built-in codecs.
 VirtualBox provided a safe environment for testing without affecting the main system.
 Open-source software makes auditing and verification easier compared to closed-source alternatives.
-
-
-
 🛠️ Tools Used
 OS: Ubuntu 24.04 LTS
 Virtualization: VirtualBox 7.x
