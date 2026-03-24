@@ -10,9 +10,10 @@ Environment: Ubuntu 24.04 LTS on VirtualBox
 
 📝 Project Description
 
-This project is an Open Source Software (OSS) Audit of the VLC Media Player. The audit focuses on verifying the software's installation, checking system-level footprints, and ensuring compliance with FOSS principles using automated shell scripts.
+This project is an Open Source Software (OSS) Audit of the VLC Media Player. The main objective is to verify the software's installation, check its system-level impact, and ensure it follows FOSS (Free and Open Source Software) principles using automated shell scripts.
 
-Through this project, I gained hands-on experience with Linux, shell scripting, package management, and understanding the transparency of community-driven software.
+Through this audit, I have analyzed the binary locations, file permissions, and disk usage to ensure transparency and security.
+
 📂 Shell Scripts Detail
 
 File Name
@@ -34,18 +35,23 @@ Audits File Permissions for Security
 script4.sh
 
 Analyzes Disk Usage & Storage Footprint
+
+script5.sh
+
+Generates Final Audit Summary (Personalized)
+
 🚀 How to Run the Scripts
 
 Open the Linux Terminal in Ubuntu.
 
-Navigate to the folder containing the scripts.
+Navigate to the project folder.
 
-Provide execution permissions:
+Provide execution permissions to all scripts:
 
 chmod +x *.sh
 
 
-Execute the scripts:
+Execute the scripts one by one:
 
 ./script1.sh
 ./script2.sh
@@ -94,29 +100,22 @@ Execution Date : Tue Mar 24 20:15:00 IST 2026
 
 🎯 Learning Outcomes
 
-Linux File System Hierarchy: Is project ke zariye maine seekha ki Linux mein binaries (/usr/bin), libraries (/usr/lib), aur configuration files (.config) kaha store hoti hain.
+Linux File System: Learned the standard locations for binaries, libraries, and config files.
 
-Automated Shell Scripting: Bash scripting ka use karke system audits ko automate karna seekha, jisse manually commands chalaney ki zarurat nahi padti.
+Shell Scripting: Mastered automating system-level audits using Bash.
 
-Package Integrity & Management: dpkg aur package management tools ka use karke software installation aur versioning ko verify karna seekha.
+Package Management: Gained experience with dpkg tools for software verification.
 
-FOSS Principles & Transparency: VLC jaise open-source software ka audit karke ye samjha ki transparency aur community-driven development security ke liye kitna zaroori hai.
-
-Practical Problem-Solving: VirtualBox environment mein audit run karte waqt permissions aur disk usage issues ko troubleshoot karna seekha.
+FOSS Transparency: Understood how open-source code allows for independent auditing.
 
 🛠️ Tools Used
 
-Operating System: Ubuntu 24.04 LTS
+OS: Ubuntu 24.04 LTS
 
 Virtualization: Oracle VM VirtualBox 7.x
 
-Software Audited: VLC Media Player 3.x (Open Source)
+Software: VLC Media Player 3.x
 
-Scripting Language: Bash (Bourne Again Shell)
+Scripting: Bash (Bourne Again Shell)
 
-Version Control: GitHub (for code hosting and documentation)
-
-Note: This audit confirms VLC’s compliance with FOSS principles and is submitted as part of the OSS Course Audit (24BCE11010).
-script5.sh
-
-Generates an Interactive Final Audit Summary (24BCE11010)
+Submitted as part of the OSS Course Audit for Registration Number 24BCE11010.
