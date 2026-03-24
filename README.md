@@ -46,38 +46,34 @@ Through this project, I gained hands-on experience with Linux, shell scripting, 
    ./script5.sh
    ---
 
-## 📊 Example Script Outputs
+# 📊 Example Script Outputs
 
 ### **script1.sh – System Identity**
 ```text
 User: krish
 Kernel Version: 6.2.0-24-generic
 VLC Binary: /usr/bin/vlc
----
-### **2. script2.sh Output**
-```markdown
-### **script2.sh – Package Verification**
-```text
+
+
+script2.sh – Package Verification
+
 ii  vlc  3.0.18-1build1  amd64  multimedia player and streamer
 Status: VLC is successfully installed on this system.
----
-### **3. script3.sh Output**
-```markdown
-### **script3.sh – File Permissions Audit**
-```text
+
+
+script3.sh – File Permissions Audit
+
 -rwxr-xr-x 1 root root 110M /usr/bin/vlc
 .config/vlc/ permissions: drwx------ krish krish
----
-### **4. script4.sh Output**
-```markdown
-### **script4.sh – Disk Usage**
-```text
+
+
+script4.sh – Disk Usage
+
 450M /usr/lib/vlc
----
-### **5. script5.sh Output (Most Important)**
-```markdown
-### **script5.sh – Final Audit Report (24BCE11010)**
-```text
+
+
+script5.sh – Final Audit Report (24BCE11010)
+
 ==========================================
       VLC OPEN SOURCE AUDIT FINALIZER     
 ==========================================
@@ -86,23 +82,26 @@ Reg. Number    : 24BCE11010
 Audit Status   : SUCCESSFUL
 Execution Date : Tue Mar 24 20:15:00 IST 2026
 ==========================================
----
-## 🎯 Learning Outcomes
 
-* **Linux File System Hierarchy:** Is project ke zariye maine seekha ki Linux mein binaries (`/usr/bin`), libraries (`/usr/lib`), aur configuration files (`.config`) kaha store hoti hain.
-* **Automated Shell Scripting:** Bash scripting ka use karke system audits ko automate karna seekha, jisse manually commands chalaney ki zarurat nahi padti.
-* **Package Integrity & Management:** `dpkg` aur package management tools ka use karke software installation aur versioning ko verify karna seekha.
-* **FOSS Principles & Transparency:** VLC jaise open-source software ka audit karke ye samjha ki transparency aur community-driven development security ke liye kitna zaroori hai.
-* **Practical Problem-Solving:** VirtualBox environment mein audit run karte waqt permissions aur disk usage issues ko troubleshoot karna seekha.
----
-## 🛠️ Tools Used
 
-* **Operating System:** Ubuntu 24.04 LTS
-* **Virtualization:** Oracle VM VirtualBox 7.x
-* **Software Audited:** VLC Media Player 3.x (Open Source)
-* **Scripting Language:** Bash (Bourne Again Shell)
-* **Version Control:** GitHub (for code hosting and documentation)
+🎯 Learning Outcomes
 
----
+Linux File System Hierarchy: Is project ke zariye maine seekha ki Linux mein binaries (/usr/bin), libraries (/usr/lib), aur configuration files (.config) kaha store hoti hain.
 
-> **Note:** This audit confirms VLC’s compliance with FOSS principles and is submitted as part of the OSS Course Audit (24BCE11010).
+Automated Shell Scripting: Bash scripting ka use karke system audits ko automate karna seekha.
+
+Package Integrity & Management: dpkg tools ka use karke software installation verify karna seekha.
+
+FOSS Principles: VLC ka audit karke transparency aur community-driven development ko samjha.
+
+Practical Problem-Solving: VirtualBox environment mein troubleshooting seekhi.
+
+🛠️ Tools Used
+
+Operating System: Ubuntu 24.04 LTS
+
+Virtualization: Oracle VM VirtualBox 7.x
+
+Software: VLC Media Player 3.x
+
+Scripting: Bash (Bourne Again Shell)
