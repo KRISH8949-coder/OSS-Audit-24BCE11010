@@ -42,7 +42,7 @@ chmod +x *.sh
 
 
 Run the script one by one 
-</>Bash
+```bash
 ./script1.sh
 ./script2.sh
 ./script3.sh
@@ -52,32 +52,29 @@ Run the script one by one
 
 📊 Example Script Outputs
 
-
-script1.sh – System Identity
 ```bash
+script1.sh – System Identity
 User: krish
 Kernel Version: 6.2.0-24-generic
 VLC Binary: /usr/bin/vlc
 
-script2.sh – Package Verification
 ```bash
+script2.sh – Package Verification
 ii  vlc  3.0.18-1build1  amd64  multimedia player and streamer
 VLC is installed on this system.
 
 
-script3.sh – File Permissions Audit
 ```bash
+script3.sh – File Permissions Audit
 -rwxr-xr-x 1 root root 110M /usr/bin/vlc
 .config/vlc/ permissions: drwx------ krish krish
 
-
-script4.sh – Disk Usage
 ```bash
+script4.sh – Disk Usage
 450M    /usr/lib/vlc
 
-
-script5.sh – Final Audit Report
 ```bash
+script5.sh – Final Audit Report
 VLC Media Player is installed correctly, uses moderate disk space,
 and all permissions are appropriate.
 This audit confirms VLC’s compliance with FOSS principles.
